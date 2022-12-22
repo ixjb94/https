@@ -1,7 +1,7 @@
 Pure https request (like `fetch` or `axios`) that uses node:https that written in typescript
 
 ### Install
-`npm install @mhjb/https`
+`npm install @ixjb94/https`
 
 ### Supported Methods
 ```
@@ -18,7 +18,7 @@ and others
 
 ### Example
 ```js
-import { Http } from "@mhjb/https"
+import { Http } from "@ixjb94/https"
 
 Run()
 async function Run {
@@ -34,7 +34,7 @@ async function Run {
 
 OR
 ```js
-const { Http } = require("@mhjb/https")
+const { Http } = require("@ixjb94/https")
 
 let http = new Http()
 http.request("https://example.com/path?something=true").then(req => {
