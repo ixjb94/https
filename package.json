@@ -1,0 +1,19 @@
+{
+  "name": "@ixjb94/https",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dist": "node ./dist/index.js",
+    "dev": "npm run build && npm run dist"
+  },
+  "keywords": [],
+  "author": "IX JB",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
